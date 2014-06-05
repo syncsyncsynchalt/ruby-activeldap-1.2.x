@@ -901,7 +901,8 @@ require_gem_if_need = Proc.new do |library_name, gem_name, *gem_args|
   end
 end
 
-require_gem_if_need.call("active_support", "activesupport", "= 2.3.5")
+# require_gem_if_need.call("active_support", "activesupport", "= 2.3.5")
+require 'active_record'
 
 if ActiveSupport.const_defined?(:Dependencies)
   dependencies = ActiveSupport::Dependencies
@@ -931,6 +932,8 @@ end
 #  require_gem_if_need.call("gettext_activerecord", nil, "= 2.1.0")
 #rescue LoadError
 #end
+require 'active_record'
+
 require 'active_ldap/get_text'
 
 require 'active_ldap/compatible'
