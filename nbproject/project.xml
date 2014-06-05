@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ruby.rubyproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/ruby-project/1">
+            <name>activeldap-1.2.2</name>
+            <source-roots>
+                <root id="src.dir"/>
+                <root id="data.dir"/>
+                <root id="examples.dir"/>
+                <root id="lib.dir"/>
+                <root id="po.dir"/>
+                <root id="rails.dir"/>
+                <root id="rails_generators.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+                <root id="test.test-unit.dir"/>
+            </test-roots>
+        </data>
+    </configuration>
+</project>
